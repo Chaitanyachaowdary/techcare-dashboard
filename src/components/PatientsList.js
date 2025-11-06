@@ -40,7 +40,7 @@ export default function PatientsList() {
       </div>
 
       {/* Scrollable List */}
-      <div className="overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 rounded-lg pr-1 h-[102.5vh]">
+      <div className="overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 rounded-lg pr-1 h-[105vh]">
         {patients.map((patient, index) => (
           <div
             key={index}
